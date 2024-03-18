@@ -1,9 +1,9 @@
 def FahToCelsius(valor):
-    return (valor*9/5) + 32
+    return (valor - 32) * 5/9
 
 
 def CelsiusToFah(valor):
-    return (valor - 32) * 5/9
+    return (valor*9/5) + 32
 
 
 opcao = input(
