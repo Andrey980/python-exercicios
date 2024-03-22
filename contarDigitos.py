@@ -1,11 +1,7 @@
 def contar_digitos(numero):
     numero_str = str(numero)
-    contador = 0
 
-    for digitos in numero_str:
-        contador += 1
-
-    return contador
+    return len(numero_str)
 
 
 numero = int(input("Digite um número inteiro: "))
