@@ -1,9 +1,3 @@
-# palavra = "abcd"
-
-# for letra in palavra:
-#     print(letra)
-
-
 def contador_vogais(palavra):
     vogais = 0
     conso = 0
